@@ -1,0 +1,33 @@
+{
+  "name": "phone_number_formatter_application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "dependencies": {
+    "@hubspot/api-client": "^11.2.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.19.2",
+    "express-session": "^1.15.6",
+    "i18n-iso-countries": "^7.11.3",
+    "libphonenumber-js": "^1.11.4",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "node-cache": "^4.2.0",
+    "node-cron": "^3.0.3",
+    "qs": "^6.11.2",
+    "stripe": "^16.4.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
